@@ -26,8 +26,12 @@
 
     <div class="work-wrap">
       <div class="work-container">
+      <label for="return">
+        <div class="work-return">{% include icons/icon-back.html %}</div>
+      </label>
+      <h4 class="project-title"></h4>
       <div class="under-construction">
-        <h3>UNDER CONSTRUCTION</h3>
+        <h4>UNDER CONSTRUCTION</h3>
         <img src="{{ site.github.url }}/assets/img/uc.png" alt="Under Construction" />
         <p>
           <strong>The Equipment Company (TEC)</strong><br>
@@ -39,10 +43,7 @@
           <a href="info@tec.net.pk">info@tec.net.pk</a>
         </p>
       </div>
-      <label for="return">
-        <div class="work-return">{% include icons/icon-back.html %}</div>
-      </label>
-      <h4 class="project-title"></h4>
+      
       
       <noscript>
         {% for project in site.data.settings.projects %}
