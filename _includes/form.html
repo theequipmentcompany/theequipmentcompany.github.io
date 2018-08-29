@@ -1,0 +1,35 @@
+<section>
+
+  <h3>Email us</h3>
+
+<form method="POST" action="//formspree.io/{{ site.data.settings.email }}">
+
+  <fieldset class="contact-info-group">
+
+    <label><span>Your Name</span>
+    <input type="text" name="name" required></label>
+
+    <label><span>Your Email</span>
+    <input type="email" name="_replyto" required></label>
+
+  </fieldset>
+  <fieldset class="contact-info-group">
+
+    <label><span>Institution/University Name</span>
+    <input type="text" name="institution" required></label>
+
+    <label><span>Your Phone No.</span>
+    <input type="text" name="phone" required></label>
+
+  </fieldset>
+
+  <label><span>What can we help you with?</span>
+  <textarea name="message" required></textarea></label>
+
+  <fieldset class="submit-wrap">
+    <input type="submit" value="Send">
+  </fieldset>
+
+</form>
+
+</section>

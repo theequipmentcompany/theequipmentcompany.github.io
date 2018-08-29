@@ -1,0 +1,95 @@
+#-------------------------------
+# General Site Settings
+
+title: The Equipment Company
+description: Providing innovative educational training systems and R&D laboratory equipments of the highest quality in Pakistan.
+email: info@tec.net.pk
+address: 2-T Block 2, Second Floor, P.E.C.H.S Karachi - 75400 - Pakistan
+fax: +92-21-4302648
+tel: +92-21-4302647-8
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About, url: '#about'}
+- {name: Products & Services, url: '#products'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'THE EQUIPMENT COMPANY is the leading Distribution Company for Engineering Laboratory equipment and the only large company that is focused on this Market Segment.'
+  rel-author: ''
+  rel-publisher: ''
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  THE EQUIPMENT COMPANY is a young and dedicated company for Educational Products, came into being on the January 2012. <br>
+
+  THE EQUIPMENT COMPANY employs an experienced and exceedingly competent team of sales personnel committed to accomplish the needs if its customers and back up its sales with prompt after sales/services by trained service engineers.Visionary thinking, quality management and the competence of our staff are the backbone of our business and the basis for its strategic alignment. We are consistently taking up the challenges and demands with regard to product quality, safety and flexibility, thus ensuring our customers and us a leading position in the market.<br>
+
+  THE EQUIPMENT COMPANY is the leading Distribution Company for Engineering Laboratory equipment and the only large company that is focused on this Market Segment. We are a value added solutions supplier. We take full responsibility for Marketing, Sales and Service and limit our principal’s time and expense support. The company is proud to be one stop supplier for all laboratory needs. We engage with our customers from inception during the construction phase with laboratory furniture and
+  continue the relationship during the equipment procurement, maintenance and ongoing service and support phases.
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Test & Measuring Equipments, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Robotics & Biomechanics, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Sensors, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Electrical & Electronic Trainers, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Prototyping, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: PCB Design & Development, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: IOT, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Training & Workshops, folder: 'proj-8', file: 'work/proj-8.html'}
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {logo: 'logo1.png'}
+- {logo: 'logo2.png'}
+- {logo: 'logo3.png'}
+- {logo: 'logo4.png'}
+- {logo: 'logo5.png'}
+- {logo: 'logo6.png'}
+- {logo: 'logo7.png'}
+- {logo: 'logo8.png'}
+- {logo: 'logo9.png'}
+- {logo: 'logo10.png'}
+- {logo: 'logo11.png'}
+- {logo: 'logo12.png'}
+- {logo: 'logo13.png'}
+
+
+
+#-------------------------------
+# Contact Section
+
+#social:
+#- {icon: 'facebook', link: 'http://twitter.com/devtipsshow'}
+#- {icon: 'google-plus', link: 'https://dribbble.com/travisneilson'}
+#- {icon: 'twitter', link: 'https://www.behance.net/travisneilson'}
+#- {icon: 'linkedin', link: 'https://www.youtube.com/DevTipsForDesigners'}
+#- {icon: 'youtube', link: 'http://www.linkedin.com/in/travisneilson/'}
+#- {icon: 'github', link: 'http://www.github.com/TheEquipment'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

@@ -1,0 +1,63 @@
+<section class="section-work" >
+
+  <h3 name="products" id="products">Products And Services</h3>
+  {% for project in site.data.settings.projects %}
+    <input type="radio" name="trigger" class="trigger" id="{{ project.folder }}" />
+  {% endfor %}
+
+  <input type="radio" name="trigger" id="return" class="return" />
+
+  <div class="work-belt">
+
+    <div class="thumb-wrap">
+      <div class="thumb-container">
+      {% for project in site.data.settings.projects %}
+      <label for="{{ project.folder }}">
+        <div class="thumb-unit" data-url="{{ site.github.url }}/work/{{ project.folder }}/">
+          <img src="{{ site.github.url }}/assets/img/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
+        </div>
+        <div class="thumb-overlay">
+          <strong>{{ project.name }}</strong>
+        </div>
+      </label>
+      {% endfor %}
+    </div>
+    </div>
+
+    <div class="work-wrap">
+      <div class="work-container">
+      <div class="under-construction">
+        <h3>UNDER CONSTRUCTION</h3>
+        <img src="{{ site.github.url }}/assets/img/uc.png" alt="Under Construction" />
+        <p>
+          <strong>The Equipment Company (TEC)</strong><br>
+          2nd Floor, 2-T, Block 2 PECHS<br>
+          Karachi-75400<br>
+          Pakistan<br>
+          Tel:  +9221 34302647-8<br>
+          Fax: +9221 34302648<br>
+          <a href="info@tec.net.pk">info@tec.net.pk</a>
+        </p>
+      </div>
+      <label for="return">
+        <div class="work-return">{% include icons/icon-back.html %}</div>
+      </label>
+      <h4 class="project-title"></h4>
+      <div class="project-load"></div>
+
+      <noscript>
+        {% for project in site.data.settings.projects %}
+          <div class="noscript" id="content-{{ project.folder }}">
+            <h4 class="project-title">{{ project.name }}</h4>
+            <div class="noscript-load">
+              {% include {{project.file}} %}
+            </div>
+          </div>
+        {% endfor %}
+      </noscript>
+
+    </div>
+    </div>
+
+  </div>
+</section>
