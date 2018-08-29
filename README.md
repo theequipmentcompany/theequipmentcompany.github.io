@@ -1,2 +1,2 @@
-# theequipmentcompany.github.io
-Website for The Equipment Company
+# theEquipmentCompany
+Website I made for The Equipment Company.
